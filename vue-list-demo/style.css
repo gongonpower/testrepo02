@@ -1,0 +1,52 @@
+html, body {
+  margin:0;
+  padding:0;
+  background: snow;
+}
+header, footer {
+  background-color: #222;
+  color: white;
+  text-align:center;
+  height:32px;
+  line-height:32px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 999;
+}
+header {
+  top:0;
+}
+footer {
+  bottom:0;
+}
+ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+li {
+  padding:0;
+  margin:0;
+}
+.region h2 {
+  font-size: 1em;
+  padding:.5em 1em;
+  margin:0;
+  background-color: rgba(200,200,200,.9);
+  position: -webkit-sticky;
+  position: sticky;
+  top:32px;
+}
+.lib-item {
+  overflow:auto;
+  padding: .5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+.lib-item p {
+  font-size: 0.7em;
+  color: #888;
+}
+.lib-item img {
+  float:left;
+  margin-right:10px;
+}
