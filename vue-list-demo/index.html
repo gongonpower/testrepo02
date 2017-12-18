@@ -1,0 +1,20 @@
+<div id="app">
+  <header>
+    澳門圖書館
+  </header>
+  <ul>
+    <li class="region" v-for="(list, area) in libraries">
+      <h2>{{area}}</h2>
+      <ul>
+        <li class="lib-item" v-for="library in list">
+          <img src="http://via.placeholder.com/100x100" alt="">
+          {{library.name}}
+          <p>{{library.open_hour}}</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <footer>
+    Footer here
+  </footer>
+</div>
